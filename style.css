@@ -27,15 +27,17 @@ body{
 .countdown
 {
     width:90%;
+    max-width: 1440px;
     margin: 0 auto;
 }
 .row{
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .col{
-    width:25%;  
+    width:25%;   
 }
+
 .value-details
 {
     width:80%;
@@ -45,12 +47,13 @@ body{
     padding:0.6em 1em;
     border-radius: 7px;  
     position: relative;
+    margin: 0 auto;
+    
 }
 .halfCircle-left,.halfCircle-right
 {
     height:8px;
-    width:5px;
-    
+    width:5px;  
     background-color:hsl(235, 16%, 14%) ;
     position: absolute;
     top:1.7em;
@@ -72,12 +75,14 @@ body{
 }
 
 .title{
-    margin-top: 2em;
+    margin: 2em auto 0 auto;
     width:75%;
     color:hsl(237, 18%, 59%);
     text-align: center;
     letter-spacing: 0.5em;
     font-size: 0.5rem;  
+    
+ 
 }
 footer{
 
@@ -100,6 +105,9 @@ footer{
 .fab:hover{
     color:hsl(345, 95%, 68%);
     cursor: pointer;
+}
+.sr-only{
+    display:none;
 }
 .social-link+.social-link{
     padding-left:2em;
@@ -143,10 +151,12 @@ footer{
     }
     .container{
         width:73%;
+     
     }
     .countdown
     {
     width:80%;
+ 
   
     }
     .value-details
@@ -166,7 +176,7 @@ footer{
     }
     .halfCircle-left,.halfCircle-right{
         height:10px;
-        width:8px;  
+        width:10px;  
         top:4.4em; 
     }
     footer{
