@@ -17,7 +17,9 @@ body{
     background-image: url("images/bg-stars.svg");
     background-color:hsl(235, 16%, 14%) ;
     margin:9.5em 0 0 0;
+
 }
+
 .container{
     width:100%;
     margin:0 auto;
@@ -29,13 +31,14 @@ body{
     width:90%;
     max-width: 1440px;
     margin: 0 auto;
+   
 }
 .row{
     display:flex;
     justify-content: space-between;
 }
 .col{
-    width:25%;   
+    width:25%; 
 }
 
 .value-details
@@ -48,6 +51,7 @@ body{
     border-radius: 7px;  
     position: relative;
     margin: 0 auto;
+   
     
 }
 .halfCircle-left,.halfCircle-right
@@ -71,6 +75,7 @@ body{
     font-size: 2rem;
     padding:0;
     margin: 0 auto;
+    
    
 }
 
@@ -81,8 +86,6 @@ body{
     text-align: center;
     letter-spacing: 0.5em;
     font-size: 0.5rem;  
-    
- 
 }
 footer{
 
@@ -93,10 +96,9 @@ footer{
     right: 0;
     bottom: 0;
     left: 0;
-    padding: 4em;
+    padding:4em;
     text-align: center;
-     
-
+   
 }
 .fab{ 
     color:hsl(237, 18%, 59%);
@@ -112,6 +114,12 @@ footer{
 .social-link+.social-link{
     padding-left:2em;
 }
+@media only screen and (orientation: landscape) {
+    footer{
+        top:30em;
+    }
+   
+  }
 @media screen and (min-width:700px)
 {
     body{
