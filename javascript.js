@@ -1,4 +1,4 @@
- var countDownDate = new Date("Jan 13, 2021 16:37:52").getTime();
+ var countDownDate = new Date("Sep 25, 2021 16:37:52").getTime();
  var myfunc = setInterval(function() {
  var now = new Date().getTime();
  var timeleft = countDownDate - now;
